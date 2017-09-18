@@ -1,4 +1,4 @@
-= Primeiro taller de iniciación a OOP
+= Segundo taller de iniciación a OOP
 VigoJUG & VigoTech Alliance
 2017-09-19
 :revnumber: {project-version}

@@ -75,7 +75,7 @@ liveReload {
 }
 
 githubPages {
-    repoUri = 'git@github.com:vigojug/taller-iniciacion-1.git'
+    repoUri = 'git@github.com:vigojug/taller-iniciacion-2.git'
 }
 
 download {
