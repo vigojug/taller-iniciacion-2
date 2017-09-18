@@ -1,0 +1,86 @@
+= Primeiro taller de iniciación a OOP
+VigoJUG & VigoTech Alliance
+2017-09-19
+:revnumber: {project-version}
+:example-caption!:
+ifndef::imagesdir[:imagesdir: images]
+ifndef::sourcedir[:sourcedir: ../java]
+:deckjs_transition: fade
+:navigation:
+:menu:
+:status:
+:adoctor: http://asciidoctor.org/[Asciidoctor]
+:gradle: http://gradle.org[Gradle]
+
+== Axenda
+
+* VigoTech, VigoJUG e o reto
+* Talleres de iniciación
+* Instalar Java e un IDE
+* -- PENDENTE --
+* Exercicio
+* Dúbidas
+
+
+[%notitle]
+== VigoTech Alliance
+
+image::vigotech.jpg[background, size=cover]
+
+== VigoJUG
+
+* Un meetup o primeiro martes de cada mes
+* Involucrar as empresas locais e promover a tecnoloxía
+* ¿Te animas cunha charla?. Licencias de JetBrains ;-)
+* Outras iniciativas: clubes de lectura
+* Canal de slack #VigoJUG en http://www.vigotech.org
+
+image::sponsors.jpg[sponsors,800,200]
+
+== O reto
+
+* Exercicio de programación breve (30 minutos) en GitHub
+* PRs (un directorio por cada usuaria)
+* Unha semana antes: se fecha e lanzamos enquisa
+* Charla lostrego no seguinte meetup
+
+== Talleres de iniciación
+
+* Un taller o tercer martes de cada mes
+* Rolda de preguntas para falar dun tema
+* Exercicio práctico para asentar os coñecementos
+* Calquera cousa que os traiades de casa
+* Abertos a outros formatos e iniciativas
+
+== Non sexades tímidos: ¡¡preguntar!!
+
+image::baby.gif[timidos]
+
+Source: http://gif.co/vc7E.gif
+
+== Instalar Java e un IDE
+
+* Java: http://www.oracle.com/technetwork/es/java/javase/downloads/index.html
+* IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/
+
+== Primeira parte
+
+* Clases, obxectos, atributos e métodos
+* Encapsulación e abstracción
+
+Fonte: https://www.coursera.org/learn/java-poo
+
+== Exercicio
+
+* Requisitos: Pendente
+* Código: Pendente
+
+Fonte: https://www.coursera.org/learn/java-poo
+
+== Dúbidas
+
+image::questions.jpg[background, size=cover]
+
+* Slides: http://www.vigojug.org/taller-iniciacion-2
+* Código: https://github.com/vigojug/taller-iniciacion-2
+* Slack: canal #vigojug en http://www.vigotech.org
