@@ -17,7 +17,9 @@ ifndef::sourcedir[:sourcedir: ../java]
 * VigoTech, VigoJUG e o reto
 * Talleres de iniciación
 * Instalar Java e un IDE
-* -- PENDENTE --
+* Herencia: dereitos de acceso.
+* Herencia: encasulación.
+* Poliformismo.
 * Exercicio
 * Dúbidas
 
