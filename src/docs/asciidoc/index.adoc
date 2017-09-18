@@ -32,7 +32,7 @@ image::vigotech.jpg[background, size=cover]
 == VigoJUG
 
 * Un meetup o primeiro martes de cada mes
-* Involucrar as empresas locais e promover a tecnoloxía
+* Próxima charla!
 * ¿Te animas cunha charla?. Licencias de JetBrains ;-)
 * Outras iniciativas: clubes de lectura
 * Canal de slack #VigoJUG en http://www.vigotech.org
@@ -43,8 +43,8 @@ image::sponsors.jpg[sponsors,800,200]
 
 * Exercicio de programación breve (30 minutos) en GitHub
 * PRs (un directorio por cada usuaria)
-* Unha semana antes: se fecha e lanzamos enquisa
-* Charla lostrego no seguinte meetup
+* Mensual
+* Non é competitivo
 
 == Talleres de iniciación
 
@@ -65,10 +65,51 @@ Source: http://gif.co/vc7E.gif
 * Java: http://www.oracle.com/technetwork/es/java/javase/downloads/index.html
 * IntelliJ IDEA CE: https://www.jetbrains.com/idea/download/
 
-== Primeira parte
+== Herencia: dereitos de acceso
 
-* Clases, obxectos, atributos e métodos
-* Encapsulación e abstracción
+[cols=5*,options="header"]
+|===
+|Modifier
+|Class
+|Package
+|Subclass
+|World
+
+|public
+|Y
+|Y
+|Y
+|Y
+
+|protected
+|Y
+|Y
+|Y
+|N
+
+|no modifier
+|Y
+|Y
+|N
+|N
+
+|private
+|Y
+|N
+|N
+|N
+
+|===
+
+== Herencia: encasulación
+
+Pendente
+
+Fonte: https://www.coursera.org/learn/java-poo
+
+== Poliformismo.
+
+Pendente
 
 Fonte: https://www.coursera.org/learn/java-poo
 
