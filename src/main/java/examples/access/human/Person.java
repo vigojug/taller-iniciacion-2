@@ -1,7 +1,7 @@
 package examples.access.human;
 
 import examples.access.animal.Dog;
-import examples.access.animal.Wolf;
+//import examples.access.animal.Wolf;
 
 public class Person {
     public void play() {
@@ -17,7 +17,7 @@ public class Person {
 
     public void hunt() {
         // Wolf wolf = new Wolf();
-        // wolf.play();
+        // wolf.detectarBomba();
 
         // COMPILE ERROR!
         // RUNTIME ERROR!

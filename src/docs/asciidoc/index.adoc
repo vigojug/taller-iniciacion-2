@@ -101,17 +101,24 @@ Source: http://gif.co/vc7E.gif
 
 |===
 
-== Herencia: encasulación
+Fonte: http://www.codejava.net/java-core/the-java-language/java-access-modifiers-examples-public-protected-private-and-default[CodeJava]
 
-Pendente
+== Herencia: encapsulación
 
-Fonte: https://www.coursera.org/learn/java-poo
+* Un dos catro conceptos da OOP (xunto con herencia, polimorfismo e abstracción)
+* Permite separar a implementación da clase do que se expoñe fora da mesma
+* Así o código é máis doado de manter
+* É un concepto importante, moita veces mal usado
+
+Fonte: https://books.google.es/books?id=RM9sLE0ntQ0C&pg=RA1-PT204&lpg=RA1-PT204&dq=encapsulation+java+puzzles&source=bl&ots=1-eExckbjT&sig=mSEEGs3XyKBIWAf6kPxjDYKk2N8&hl=en&sa=X&ved=0ahUKEwijvP_5j6_WAhVBiRoKHVCfC3sQ6AEINzAD#v=onepage&q=encapsulation%20java%20puzzles&f=false[Java Puzzlers]
 
 == Poliformismo.
 
-Pendente
+* Ter máis de unha identidade: un caniche, un can, un animal
+* Poder obligar os fillos a determinada característica: ladrar
+* Evitar ter fillos -> non se pode
 
-Fonte: https://www.coursera.org/learn/java-poo
+Fonte:
 
 == Exercicio
 
