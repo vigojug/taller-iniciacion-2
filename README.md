@@ -31,6 +31,8 @@ To publish it:
 ./gradlew publishGhPages
 ```
 
+(make sure you've previosly created the `gh-pages` branch, the content doesn't matter)
+
 ## Credits
 
 This presentation is heavily influenced by the [Melix](https://github.com/melix) slides. The good things you can find here are developed by him, except errors and bugs which are mine.
