@@ -146,6 +146,12 @@ Fonte: https://books.google.es/books?id=RM9sLE0ntQ0C&pg=RA1-PT204&lpg=RA1-PT204&
 
 Fonte: http://web.cs.iastate.edu/~honavar/JavaNotes/Notes/chap52/chap52quiz.html[iastate.edu]
 
+=== Exemplo 1
+
+* Aleman
+* AlemanPalleiro
+* Dog
+
 === Pregunta 1
 
 **¿Qué es la firma de un método?**
@@ -191,7 +197,7 @@ un tipo de retorno diferente.
 
 === Pregunta 4
 
-**Aquí tenemos un méotod abstracto definido en el padre:**
+**Aquí tenemos un método abstracto definido en el padre:**
 
 [source,java]
 ----
@@ -302,10 +308,9 @@ boolean switch = str instanceof String;
 
 == Exercicio
 
-* Requisitos: Pendente
-* Código: Pendente
+* Requisitos: https://github.com/vigojug/taller-iniciacion-2/tree/master/src/exercise
 
-Fonte: https://www.coursera.org/learn/java-poo
+Fonte: [puntocomnoesunlenguaje.blogspot.com.es](http://puntocomnoesunlenguaje.blogspot.com.es/2016/04/ejercicio-resuelto-herencia-en-java.html)
 
 == Dúbidas
 
