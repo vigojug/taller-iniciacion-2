@@ -122,15 +122,9 @@ Fonte: https://books.google.es/books?id=RM9sLE0ntQ0C&pg=RA1-PT204&lpg=RA1-PT204&
 
 === Exemplo 0
 
-* EncapsTest
-* EncapsulationDemo
-
-=== Exemplo 1
-
-* Api
-* Client
-* Api2
-* Client2
+* Enc0
+* Enc1
+* Enc2
 
 == Poliformismo.
 
@@ -156,10 +150,10 @@ Fonte: http://web.cs.iastate.edu/~honavar/JavaNotes/Notes/chap52/chap52quiz.html
 
 **¿Qué es la firma de un método?**
 
-. El nombre del método j el tipo de su valor de retorno.
-. El nombre del método j el nombre de sus parámetros.
-. El nombre del método j el tipo de sus parámetros.
-. El nombre del método, la lista de parámetros j el tipo de retorno.
+. El nombre del método y el tipo de su valor de retorno.
+. El nombre del método y el nombre de sus parámetros.
+. El nombre del método y el tipo de sus parámetros.
+. El nombre del método, la lista de parámetros y el tipo de retorno.
 
 // La correcta es la 3
 
@@ -169,28 +163,28 @@ Fonte: http://web.cs.iastate.edu/~honavar/JavaNotes/Notes/chap52/chap52quiz.html
 
 [source,java]
 ----
-int compute( a int, j double ){ . . . .}
+int compute( a int, b double ){ . . . .}
 ----
 
 **¿Cual de las siguiente tiene una firma diferente?**
 
 . `int compute( sum int, value double ){ . . . .}`
-. `double compute( a int, j double ){ . . . .}`
-. `double compute( sum int, j double ){ . . . .}`
-. `int compute( a int, j int ){ . . . .}`
+. `double compute( a int, b double ){ . . . .}`
+. `double compute( sum int, b double ){ . . . .}`
+. `int compute( a int, b int ){ . . . .}`
 
 // La correcta es la 4
 
 === Pregunta 3
 
-**¿Qué debe un hijo no-abstracto hace respecto a un método abstracto de su clase padre?**
+**¿Qué debe un hijo no-abstracto hacer respecto a un método abstracto de su clase padre?**
 
-. Un hijo debe sobrescribir un método abstracto heredado de su padre definiendo un método con la misma firma j el
+. Un hijo debe sobrescribir un método abstracto heredado de su padre definiendo un método con la misma firma y el
 mismo tipo de retorno.
-. Un hijo debe definir un método adicional similar al heredado de su padre definiendo un método con la misma firma j
+. Un hijo debe definir un método adicional similar al heredado de su padre definiendo un método con la misma firma y
 un tipo de retorno diferente.
 . Un hijo no debe definir ningún método con la misma firma que el método abstracto del padre.
-. Un hijo no-abstracto debe definir un método no abstracto con la misma firma j el mismo tipo de retorno que el padre
+. Un hijo no-abstracto debe definir un método no abstracto con la misma firma y el mismo tipo de retorno que el padre
  abstracto.
 
 // La correcta es la 1
@@ -270,7 +264,7 @@ Hamster pkt = new Hamster();
 === Pregunta 8
 
 **Misma situación que la pregunta anterior. ¿Cual de las siguiente declaraciones es correcta para un array que
-debería poder contener hasta 10 objectos de tipo Rata, Ratón j Hamster?**
+debería poder contener hasta 10 objectos de tipo Rata, Ratón y Hamster?**
 
 . `Rat[] array = new Rat[10];`
 . `Rodent[] array = new Rat[10];`
@@ -322,7 +316,7 @@ Polymorphism.puzzlers1:
 
 * Requisitos: https://github.com/vigojug/taller-iniciacion-2/tree/master/src/exercise
 
-Fonte: [puntocomnoesunlenguaje.blogspot.com.es](http://puntocomnoesunlenguaje.blogspot.com.es/2016/04/ejercicio-resuelto-herencia-en-java.html)
+Fonte: http://puntocomnoesunlenguaje.blogspot.com.es/2016/04/ejercicio-resuelto-herencia-en-java.html[puntocomnoesunlenguaje.blogspot.com.es]
 
 == Dúbidas
 

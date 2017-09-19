@@ -1,6 +1,6 @@
-package examples.encapsulation.example1.library;
+package examples.encapsulation;
 
-public final class Api {
+final class Aux {
     //private static class String {}
 
     // Nada
@@ -10,4 +10,8 @@ public final class Api {
     public static String newString() {
         return new String();
     }
+}
+
+public class Enc1 {
+    String s = Aux.newString();
 }

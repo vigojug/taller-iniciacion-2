@@ -16,8 +16,8 @@ public class Person {
 
 
     public void hunt() {
-        // Wolf wolf = new Wolf();
-        // wolf.detectarBomba();
+/*        Wolf wolf = new Wolf();
+        wolf.play();*/
 
         // COMPILE ERROR!
         // RUNTIME ERROR!

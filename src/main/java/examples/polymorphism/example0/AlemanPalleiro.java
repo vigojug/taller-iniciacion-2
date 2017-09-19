@@ -24,5 +24,4 @@ public class AlemanPalleiro extends Aleman {
     // normal
     // palleiro way
 
-    //
 }
