@@ -103,6 +103,14 @@ Source: http://gif.co/vc7E.gif
 
 Fonte: http://www.codejava.net/java-core/the-java-language/java-access-modifiers-examples-public-protected-private-and-default[CodeJava]
 
+=== Exemplo 1
+
+* Dog
+* Person
+* Cat
+* Caniche
+* Wolf
+
 == Herencia: encapsulación
 
 * Un dos catro conceptos da OOP (xunto con herencia, polimorfismo e abstracción)
@@ -112,13 +120,185 @@ Fonte: http://www.codejava.net/java-core/the-java-language/java-access-modifiers
 
 Fonte: https://books.google.es/books?id=RM9sLE0ntQ0C&pg=RA1-PT204&lpg=RA1-PT204&dq=encapsulation+java+puzzles&source=bl&ots=1-eExckbjT&sig=mSEEGs3XyKBIWAf6kPxjDYKk2N8&hl=en&sa=X&ved=0ahUKEwijvP_5j6_WAhVBiRoKHVCfC3sQ6AEINzAD#v=onepage&q=encapsulation%20java%20puzzles&f=false[Java Puzzlers]
 
+=== Exemplo 1
+
+* EncapsTest
+* EncapsulationDemo
+
+=== Exemplo 2
+
+* Api
+* Client
+* Api2
+* Client2
+
+=== Exemplo 3
+
+* Conundrum
+* Enigma1
+* Enigma2
+
 == Poliformismo.
 
 * Ter máis de unha identidade: un caniche, un can, un animal
-* Poder obligar os fillos a determinada característica: ladrar
-* Evitar ter fillos -> non se pode
+* Poder obligar os fillos a determinada característica: ladrar => uso de abstract
+* Evitar ter fillos -> uso de final
 
-Fonte:
+Fonte: http://web.cs.iastate.edu/~honavar/JavaNotes/Notes/chap52/chap52quiz.html[iastate.edu]
+
+=== Pregunta 1
+
+**¿Qué es la firma de un método?**
+
+. El nombre del método y el tipo de su valor de retorno.
+. El nombre del método y el nombre de sus parámetros.
+. El nombre del método y el tipo de sus parámetros.
+. El nombre del método, la lista de parámetros y el tipo de retorno.
+
+// La correcta es la 3
+
+=== Pregunta 2
+
+**Esta es la definición de un método:**
+
+[source,java]
+----
+int compute( a int, y double ){ . . . .}
+----
+
+**¿Cual de las siguiente tiene una firma diferente?**
+
+. `int compute( sum int, value double ){ . . . .}`
+. `double compute( a int, y double ){ . . . .}`
+. `double compute( sum int, y double ){ . . . .}`
+. `int compute( a int, y int ){ . . . .}`
+
+// La correcta es la 4
+
+=== Pregunta 3
+
+**¿Qué debe un hijo no-abstracto hace respecto a un método abstracto de su clase padre?**
+
+. Un hijo debe sobrescribir un método abstracto heredado de su padre definiendo un método con la misma firma y el
+mismo tipo de retorno.
+. Un hijo debe definir un método adicional similar al heredado de su padre definiendo un método con la misma firma y
+un tipo de retorno diferente.
+. Un hijo no debe definir ningún método con la misma firma que el método abstracto del padre.
+. Un hijo no-abstracto debe definir un método no abstracto con la misma firma y el mismo tipo de retorno que el padre
+ abstracto.
+
+// La correcta es la 1
+
+=== Pregunta 4
+
+**Aquí tenemos un méotod abstracto definido en el padre:**
+
+[source,java]
+----
+public abstract int sumUp ( int[] arr );
+----
+
+**¿Cuál de los siguientes es obligatorio en un hijo no-abstracto?**
+
+. `public abstract int sumUp ( int[] arr ) { . . . }`
+. `public int sumUp ( int[] arr ) { . . . }`
+. `public double sumUp ( int[] arr ) { . . . }`
+. `public int sumUp ( long[] arr ) { . . . }`
+
+// La correcta es la B
+
+=== Pregunta 5
+
+**¿Qué debe ser cierto si un hijo de una clase abstracta padre no sobreescribe todo los métodos abstractos del padre?**
+
+. Es un error, no compila.
+. La clase hija debe ser declada a su vez abstracta.
+. Las clases hijas son automáticamente no abstractas, así que está bien.
+. La clase padre es errónea.
+
+// La correcta es la B
+
+=== Pregunta 6
+
+**Tenemos la siguiente situación:**
+
+[source,java]
+----
+Birthday happy;
+happy = new AdultBirthday( "Joe", 39);
+
+happy.greeting();
+----
+
+**¿Qué método `greeting()` se ejecuta: el definido por `Birthday` o el definido por `AdultBirthday`?**
+
+. El definido por `Birthday` porque es el tipo de la variable `happy`.
+. El definido por `AdultBirthday` porque es el tipo del objecto referido por `happy`.
+. El más cercano en el código a la línea `happy.greeting()`.
+. Ninguno, este código no es correcto.
+
+// La correcta es la B
+
+=== Pregunta 7
+
+**La clase Roedor tiene una clase hija Rata que a su vez tiene una clase Ratón. La clase Ratón tiene una clase hija
+Hamster:**
+
+[source,java]
+----
+Roedor rod;
+Rata rat = new Rata();
+Raton mos = new Raton();
+Hamster pkt = new Hamster();
+----
+
+**¿Cuál de los siguiente no compila?**
+
+. `rod = rat;`
+. `rod = mos;`
+. `pkt = null;`
+. `pkt = rat;`
+
+// La solución es la D
+
+=== Pregunta 8
+
+**Misma situación que la pregunta anterior. ¿Cual de las siguiente declaraciones es correcta para un array que
+debería poder contener hasta 10 objectos de tipo Rata, Ratón y Hamster?**
+
+. `Rat[] array = new Rat[10];`
+. `Rodent[] array = new Rat[10];`
+. `Rodent[] array = new Rodent[10];`
+. `Rodent[10] array;`
+
+// La solución es la C
+
+=== Pregunta 9
+
+**¿Cual es el nombre de la clase que es padre de todas las clases en Java?**
+
+. Object
+. Class
+. Root
+. Java
+
+=== Pregunta 10
+
+**Examina el siguiente código:**
+
+[source,java]
+----
+String str = "Hot Java";
+
+boolean switch = str instanceof String;
+----
+
+**¿Cuál es el valor de switch?**
+
+. true
+. false
+. "Hot Java"
+. null
 
 == Exercicio
 

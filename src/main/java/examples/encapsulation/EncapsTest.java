@@ -4,6 +4,7 @@ class EncapsulationDemo{
 
     private int age;
 
+    // Note: the getters and setters
     public int getEmpAge(){
         return age;
     }
