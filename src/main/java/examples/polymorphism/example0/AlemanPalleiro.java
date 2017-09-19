@@ -1,4 +1,4 @@
-package examples.polymorphism.animal;
+package examples.polymorphism.example0;
 
 public class AlemanPalleiro extends Aleman {
 

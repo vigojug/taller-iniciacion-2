@@ -1,4 +1,4 @@
-package examples.encapsulation.library;
+package examples.encapsulation.example1.library;
 
 class ApiBase {
     public static final int ANSWER = 42;

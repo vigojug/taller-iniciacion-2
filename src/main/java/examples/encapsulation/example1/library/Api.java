@@ -1,4 +1,4 @@
-package examples.encapsulation.library;
+package examples.encapsulation.example1.library;
 
 public final class Api {
     //private static class String {}

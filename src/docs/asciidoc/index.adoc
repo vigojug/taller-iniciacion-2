@@ -120,23 +120,17 @@ Fonte: http://www.codejava.net/java-core/the-java-language/java-access-modifiers
 
 Fonte: https://books.google.es/books?id=RM9sLE0ntQ0C&pg=RA1-PT204&lpg=RA1-PT204&dq=encapsulation+java+puzzles&source=bl&ots=1-eExckbjT&sig=mSEEGs3XyKBIWAf6kPxjDYKk2N8&hl=en&sa=X&ved=0ahUKEwijvP_5j6_WAhVBiRoKHVCfC3sQ6AEINzAD#v=onepage&q=encapsulation%20java%20puzzles&f=false[Java Puzzlers]
 
-=== Exemplo 1
+=== Exemplo 0
 
 * EncapsTest
 * EncapsulationDemo
 
-=== Exemplo 2
+=== Exemplo 1
 
 * Api
 * Client
 * Api2
 * Client2
-
-=== Exemplo 3
-
-* Conundrum
-* Enigma1
-* Enigma2
 
 == Poliformismo.
 
@@ -146,20 +140,26 @@ Fonte: https://books.google.es/books?id=RM9sLE0ntQ0C&pg=RA1-PT204&lpg=RA1-PT204&
 
 Fonte: http://web.cs.iastate.edu/~honavar/JavaNotes/Notes/chap52/chap52quiz.html[iastate.edu]
 
-=== Exemplo 1
+=== Exemplo 0
 
 * Aleman
 * AlemanPalleiro
-* Dog
+* Perro
+
+=== Exemplo 1
+
+* Child
+* ChildAbstract
+* ChildFinal
 
 === Pregunta 1
 
 **¿Qué es la firma de un método?**
 
-. El nombre del método y el tipo de su valor de retorno.
-. El nombre del método y el nombre de sus parámetros.
-. El nombre del método y el tipo de sus parámetros.
-. El nombre del método, la lista de parámetros y el tipo de retorno.
+. El nombre del método j el tipo de su valor de retorno.
+. El nombre del método j el nombre de sus parámetros.
+. El nombre del método j el tipo de sus parámetros.
+. El nombre del método, la lista de parámetros j el tipo de retorno.
 
 // La correcta es la 3
 
@@ -169,15 +169,15 @@ Fonte: http://web.cs.iastate.edu/~honavar/JavaNotes/Notes/chap52/chap52quiz.html
 
 [source,java]
 ----
-int compute( a int, y double ){ . . . .}
+int compute( a int, j double ){ . . . .}
 ----
 
 **¿Cual de las siguiente tiene una firma diferente?**
 
 . `int compute( sum int, value double ){ . . . .}`
-. `double compute( a int, y double ){ . . . .}`
-. `double compute( sum int, y double ){ . . . .}`
-. `int compute( a int, y int ){ . . . .}`
+. `double compute( a int, j double ){ . . . .}`
+. `double compute( sum int, j double ){ . . . .}`
+. `int compute( a int, j int ){ . . . .}`
 
 // La correcta es la 4
 
@@ -185,12 +185,12 @@ int compute( a int, y double ){ . . . .}
 
 **¿Qué debe un hijo no-abstracto hace respecto a un método abstracto de su clase padre?**
 
-. Un hijo debe sobrescribir un método abstracto heredado de su padre definiendo un método con la misma firma y el
+. Un hijo debe sobrescribir un método abstracto heredado de su padre definiendo un método con la misma firma j el
 mismo tipo de retorno.
-. Un hijo debe definir un método adicional similar al heredado de su padre definiendo un método con la misma firma y
+. Un hijo debe definir un método adicional similar al heredado de su padre definiendo un método con la misma firma j
 un tipo de retorno diferente.
 . Un hijo no debe definir ningún método con la misma firma que el método abstracto del padre.
-. Un hijo no-abstracto debe definir un método no abstracto con la misma firma y el mismo tipo de retorno que el padre
+. Un hijo no-abstracto debe definir un método no abstracto con la misma firma j el mismo tipo de retorno que el padre
  abstracto.
 
 // La correcta es la 1
@@ -270,7 +270,7 @@ Hamster pkt = new Hamster();
 === Pregunta 8
 
 **Misma situación que la pregunta anterior. ¿Cual de las siguiente declaraciones es correcta para un array que
-debería poder contener hasta 10 objectos de tipo Rata, Ratón y Hamster?**
+debería poder contener hasta 10 objectos de tipo Rata, Ratón j Hamster?**
 
 . `Rat[] array = new Rat[10];`
 . `Rodent[] array = new Rat[10];`
@@ -305,6 +305,18 @@ boolean switch = str instanceof String;
 . false
 . "Hot Java"
 . null
+
+== Puzzlers
+
+Polymorphism.puzzlers1:
+
+* Poly1
+* Poly2
+* Poly3
+* Poly4
+* Poly5
+* Poly6
+* Poly7
 
 == Exercicio
 

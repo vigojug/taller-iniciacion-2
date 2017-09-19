@@ -1,6 +1,6 @@
-package examples.polymorphism.animal;
+package examples.polymorphism.example0;
 
-public class Aleman extends Dog {
+public class Aleman extends Perro {
 
     public void detectarBomba() {
         System.out.println("Bomba!");

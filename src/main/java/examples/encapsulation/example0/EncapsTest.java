@@ -1,4 +1,4 @@
-package examples.encapsulation;
+package examples.encapsulation.example0;
 
 class EncapsulationDemo{
 

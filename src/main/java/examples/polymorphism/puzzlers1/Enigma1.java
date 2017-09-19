@@ -1,4 +1,4 @@
-package examples.encapsulation;
+package examples.polymorphism.puzzlers1;
 
 final class Enigma1 {
     // Don’t do this!
